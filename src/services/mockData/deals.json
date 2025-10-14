@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "title": "TechStart Enterprise Package",
+    "contactId": 1,
+    "value": 45000,
+    "stage": "negotiation",
+    "closeDate": "2024-03-15",
+    "probability": 85,
+    "notes": "Final contract review in progress. Waiting for legal approval on terms.",
+    "createdAt": "2024-01-20T10:30:00Z",
+    "updatedAt": "2024-02-22T14:20:00Z"
+  },
+  {
+    "Id": 2,
+    "title": "Digital Dynamics Implementation",
+    "contactId": 2,
+    "value": 32000,
+    "stage": "proposal",
+    "closeDate": "2024-03-30",
+    "probability": 70,
+    "notes": "Proposal submitted. Waiting for technical review from their engineering team.",
+    "createdAt": "2024-02-01T09:15:00Z",
+    "updatedAt": "2024-02-20T16:45:00Z"
+  },
+  {
+    "Id": 3,
+    "title": "Growth Solutions Automation",
+    "contactId": 3,
+    "value": 18500,
+    "stage": "qualified",
+    "closeDate": "2024-04-10",
+    "probability": 90,
+    "notes": "Very hot lead. Budget confirmed. Moving to proposal phase next week.",
+    "createdAt": "2024-02-05T11:20:00Z",
+    "updatedAt": "2024-02-23T10:30:00Z"
+  },
+  {
+    "Id": 4,
+    "title": "Innovation Labs Integration",
+    "contactId": 4,
+    "value": 55000,
+    "stage": "lead",
+    "closeDate": "2024-05-01",
+    "probability": 40,
+    "notes": "Initial technical discussions ongoing. Need to provide API documentation.",
+    "createdAt": "2024-02-08T15:45:00Z",
+    "updatedAt": "2024-02-21T12:15:00Z"
+  },
+  {
+    "Id": 5,
+    "title": "NextGen Multi-Location Setup",
+    "contactId": 5,
+    "value": 67500,
+    "stage": "proposal",
+    "closeDate": "2024-04-20",
+    "probability": 65,
+    "notes": "Custom proposal for 15 locations. Implementation timeline is key concern.",
+    "createdAt": "2024-02-10T13:30:00Z",
+    "updatedAt": "2024-02-22T09:45:00Z"
+  },
+  {
+    "Id": 6,
+    "title": "FinTech Compliance Solution",
+    "contactId": 6,
+    "value": 89000,
+    "stage": "lead",
+    "closeDate": "2024-06-15",
+    "probability": 30,
+    "notes": "Complex compliance requirements. Long evaluation process expected.",
+    "createdAt": "2024-02-12T14:00:00Z",
+    "updatedAt": "2024-02-20T11:20:00Z"
+  },
+  {
+    "Id": 7,
+    "title": "Creative Agency Collaboration Tools",
+    "contactId": 7,
+    "value": 12500,
+    "stage": "won",
+    "closeDate": "2024-02-28",
+    "probability": 100,
+    "notes": "Deal closed! Implementation starts next month. Great referral opportunity.",
+    "createdAt": "2024-02-14T10:15:00Z",
+    "updatedAt": "2024-02-28T16:30:00Z"
+  },
+  {
+    "Id": 8,
+    "title": "Manufacturing Legacy Migration",
+    "contactId": 8,
+    "value": 125000,
+    "stage": "negotiation",
+    "closeDate": "2024-04-30",
+    "probability": 75,
+    "notes": "Large enterprise deal. Final pricing negotiations in progress.",
+    "createdAt": "2024-02-16T09:45:00Z",
+    "updatedAt": "2024-02-24T13:40:00Z"
+  },
+  {
+    "Id": 9,
+    "title": "Healthcare HIPAA Solution",
+    "contactId": 9,
+    "value": 78000,
+    "stage": "qualified",
+    "closeDate": "2024-05-15",
+    "probability": 55,
+    "notes": "Security audit completed successfully. Moving to proposal phase.",
+    "createdAt": "2024-02-18T11:30:00Z",
+    "updatedAt": "2024-02-25T14:15:00Z"
+  },
+  {
+    "Id": 10,
+    "title": "Consulting White-Label Package",
+    "contactId": 10,
+    "value": 34500,
+    "stage": "lost",
+    "closeDate": "2024-03-01",
+    "probability": 0,
+    "notes": "Lost to competitor. Price was main factor. Keep for future opportunities.",
+    "createdAt": "2024-02-20T12:00:00Z",
+    "updatedAt": "2024-03-01T10:30:00Z"
+  }
+]

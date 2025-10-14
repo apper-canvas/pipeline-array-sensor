@@ -1,0 +1,90 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply antialiased;
+  }
+  
+  body {
+    @apply font-sans bg-slate-50;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
+  
+  .card-hover {
+    @apply transform hover:-translate-y-0.5 transition-all duration-150 ease-out;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600 text-white px-4 py-2 rounded-md font-medium hover:from-primary-600 hover:to-primary-700 active:scale-[0.98] transition-all duration-150;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-secondary-600 px-4 py-2 rounded-md font-medium border border-gray-300 hover:bg-gray-50 active:scale-[0.98] transition-all duration-150;
+  }
+  
+  .btn-ghost {
+    @apply text-secondary-600 px-4 py-2 rounded-md font-medium hover:bg-gray-100 active:scale-[0.98] transition-all duration-150;
+  }
+  
+  .input-field {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-colors duration-200;
+  }
+  
+  .stage-column {
+    @apply bg-gray-50 rounded-lg p-4 min-h-[500px] border-2 border-dashed border-gray-200;
+  }
+  
+  .deal-card {
+    @apply bg-white rounded-lg p-4 shadow-sm hover:shadow-md cursor-move transition-all duration-200 border border-gray-100;
+  }
+  
+  .deal-card-dragging {
+    @apply shadow-xl scale-105 rotate-2;
+  }
+}
+
+/* Toast Customization */
+.Toastify__toast-container {
+  @apply top-4 right-4;
+  width: auto;
+  max-width: 400px;
+}
+
+.Toastify__toast {
+  @apply rounded-lg shadow-lg border;
+  min-height: 48px;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+
+.Toastify__toast--success {
+  @apply bg-white border-accent-500;
+}
+
+.Toastify__toast--error {
+  @apply bg-white border-red-500;
+}
+
+.Toastify__toast--warning {
+  @apply bg-white border-yellow-500;
+}
+
+.Toastify__toast--info {
+  @apply bg-white border-blue-500;
+}
+
+.Toastify__close-button {
+  @apply text-gray-400 hover:text-gray-600;
+}
+
+.Toastify__progress-bar {
+  @apply h-1;
+}

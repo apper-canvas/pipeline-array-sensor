@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "contactId": 1,
+    "dealId": 1,
+    "type": "call",
+    "description": "Discussed contract terms and implementation timeline. Sarah has concerns about data migration schedule.",
+    "timestamp": "2024-02-22T14:30:00Z"
+  },
+  {
+    "Id": 2,
+    "contactId": 2,
+    "dealId": 2,
+    "type": "email",
+    "description": "Sent technical proposal with detailed API documentation and integration examples.",
+    "timestamp": "2024-02-22T10:15:00Z"
+  },
+  {
+    "Id": 3,
+    "contactId": 3,
+    "dealId": 3,
+    "type": "meeting",
+    "description": "Demo presentation went very well. Emily is excited about the automation features and wants to move forward quickly.",
+    "timestamp": "2024-02-21T15:45:00Z"
+  },
+  {
+    "Id": 4,
+    "contactId": 1,
+    "dealId": null,
+    "type": "note",
+    "description": "Sarah mentioned potential expansion to 3 more divisions if initial implementation is successful.",
+    "timestamp": "2024-02-21T09:20:00Z"
+  },
+  {
+    "Id": 5,
+    "contactId": 4,
+    "dealId": 4,
+    "type": "email",
+    "description": "Provided sandbox access credentials and development environment setup guide.",
+    "timestamp": "2024-02-20T16:30:00Z"
+  },
+  {
+    "Id": 6,
+    "contactId": 5,
+    "dealId": 5,
+    "type": "call",
+    "description": "Discussed multi-location rollout strategy. Lisa needs phased implementation over 6 months.",
+    "timestamp": "2024-02-20T11:45:00Z"
+  },
+  {
+    "Id": 7,
+    "contactId": 7,
+    "dealId": 7,
+    "type": "meeting",
+    "description": "Contract signed! Amanda is thrilled with the solution. Scheduled kick-off meeting for next week.",
+    "timestamp": "2024-02-28T16:30:00Z"
+  },
+  {
+    "Id": 8,
+    "contactId": 6,
+    "dealId": 6,
+    "type": "email",
+    "description": "Sent comprehensive security documentation and compliance certifications (SOC 2, ISO 27001).",
+    "timestamp": "2024-02-19T14:20:00Z"
+  },
+  {
+    "Id": 9,
+    "contactId": 8,
+    "dealId": 8,
+    "type": "call",
+    "description": "Pricing negotiations ongoing. James has budget approval but needs C-level sign-off.",
+    "timestamp": "2024-02-24T13:40:00Z"
+  },
+  {
+    "Id": 10,
+    "contactId": 9,
+    "dealId": 9,
+    "type": "meeting",
+    "description": "Security audit review completed successfully. Maria is satisfied with HIPAA compliance measures.",
+    "timestamp": "2024-02-25T14:15:00Z"
+  },
+  {
+    "Id": 11,
+    "contactId": 2,
+    "dealId": 2,
+    "type": "task",
+    "description": "Follow up on technical review status. Michael's team should have feedback by end of week.",
+    "timestamp": "2024-02-18T09:00:00Z"
+  },
+  {
+    "Id": 12,
+    "contactId": 3,
+    "dealId": 3,
+    "type": "note",
+    "description": "Emily mentioned referral to sister company. Great expansion opportunity if this deal closes.",
+    "timestamp": "2024-02-17T16:45:00Z"
+  },
+  {
+    "Id": 13,
+    "contactId": 10,
+    "dealId": 10,
+    "type": "call",
+    "description": "Final attempt to match competitor pricing failed. Thomas went with lower cost option.",
+    "timestamp": "2024-03-01T10:30:00Z"
+  },
+  {
+    "Id": 14,
+    "contactId": 5,
+    "dealId": null,
+    "type": "email",
+    "description": "Sent case study from similar retail client showing 30% efficiency improvement.",
+    "timestamp": "2024-02-16T13:20:00Z"
+  },
+  {
+    "Id": 15,
+    "contactId": 4,
+    "dealId": 4,
+    "type": "note",
+    "description": "David's team is impressed with API performance in sandbox. Moving to full evaluation phase.",
+    "timestamp": "2024-02-15T11:10:00Z"
+  }
+]
