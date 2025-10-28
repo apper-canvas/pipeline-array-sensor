@@ -9,10 +9,11 @@ const Header = () => {
   const navigate = useNavigate()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-  const navigation = [
+const navigation = [
     { name: "Dashboard", href: "/", icon: "LayoutDashboard" },
     { name: "Contacts", href: "/contacts", icon: "Users" },
     { name: "Pipeline", href: "/pipeline", icon: "GitBranch" },
+    { name: "Tasks", href: "/tasks", icon: "CheckSquare" },
     { name: "Activities", href: "/activities", icon: "Activity" },
   ]
 
